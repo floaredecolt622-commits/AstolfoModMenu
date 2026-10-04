@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "astolfo_mod",
+  "version": "${version}",
+  "name": "Astolfo Mod",
+  "description": "A stylish parody UI and QoL mod with a K menu, custom HUD themes, and a ton of menu modules.",
+  "authors": ["YourName"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.example.astolfomod.AstolfoModClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.7",
+    "minecraft": "1.21.1",
+    "fabric": "*"
+  }
+}
